@@ -13,11 +13,11 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - clusterctl
         baseImage:
           - debian:latest
           - ubuntu:latest
+          - fedora:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
       - uses: actions/checkout@v2
