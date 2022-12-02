@@ -19,7 +19,7 @@ esac
 
 echo "Detected architecture: ${architecture}"
 
-wget -O /usr/local/bin/clusterctl "https://github.com/kubernetes-sigs/cluster-api/releases/download/${VERSION}/clusterctl-linux-${architecture}"
+curl -sSL -o /usr/local/bin/clusterctl "https://github.com/kubernetes-sigs/cluster-api/releases/download/${VERSION}/clusterctl-linux-${architecture}"
 
 chmod +x /usr/local/bin/color
 
