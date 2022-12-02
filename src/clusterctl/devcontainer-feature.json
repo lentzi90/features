@@ -13,5 +13,15 @@
             "default": "v1.3.0",
             "description": "Select or enter clusterctl version to install."
         }
-    }
+    },
+    "mounts": [
+        {
+            "source": "cluster-api-config",
+            "target": "/home/vscode/.cluster-api",
+            "type": "volume"
+        }
+    ],
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
 }
