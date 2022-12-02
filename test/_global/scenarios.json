@@ -9,5 +9,13 @@
                 "greeting": "Greetings"
             }
         }
+    },
+    "clusterctl_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "clusterctl": {
+                "version": "v1.2.7"
+            }
+        }
     }
 }
