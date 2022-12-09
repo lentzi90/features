@@ -1,7 +1,7 @@
 {
     "name": "Clusterctl",
     "id": "clusterctl",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "The CLI for Cluster API.",
     "options": {
         "version": {
