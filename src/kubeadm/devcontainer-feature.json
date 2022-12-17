@@ -1,0 +1,20 @@
+{
+    "name": "Kubeadm",
+    "id": "kubeadm",
+    "version": "0.0.1",
+    "description": "Kubeadm, nothing more, nothing less, just the binary.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "v1.25.3",
+                "v1.26.0"
+            ],
+            "default": "v1.26.0",
+            "description": "Select or enter kubeadm version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
