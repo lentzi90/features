@@ -1,9 +1,7 @@
 
 # Kubeadm (kubeadm)
 
-Kubeadm. Nothing more, nothing less.
-You should not expect this to be able to `kubeadm init` a new custer without adding other dependencies and configuration.
-But it can be useful for checking commands, docs and running specific phases.
+Kubeadm, nothing more, nothing less, just the binary.
 
 ## Example Usage
 
@@ -19,8 +17,9 @@ But it can be useful for checking commands, docs and running specific phases.
 |-----|-----|-----|-----|
 | version | Select or enter kubeadm version to install. | string | v1.26.0 |
 
+You should not expect this to be able to `kubeadm init` a cluster without adding additional tools and configuration.
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lentzi90/features/blob/main/src/clusterctl/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lentzi90/features/blob/main/src/kubeadm/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
