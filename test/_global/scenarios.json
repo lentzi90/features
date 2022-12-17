@@ -1,9 +1,12 @@
 {
-    "clusterctl_version": {
+    "clusterctl_kubeadm_version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "clusterctl": {
-                "version": "v1.2.7"
+                "version": "v1.2.8"
+            },
+            "kubeadm": {
+                "version": "v1.25.3"
             }
         }
     }
