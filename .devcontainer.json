@@ -11,5 +11,5 @@
         "ghcr.io/devcontainers/features/docker-in-docker:1": {}
     },
     "remoteUser": "node",
-    "postCreateCommand": "npm install -g @devcontainers/cli"
+    "postCreateCommand": "npm install -g @devcontainers/cli; echo 'source /usr/share/bash-completion/completions/git' | sudo tee --append /etc/bash.bashrc; source /usr/share/bash-completion/completions/git;"
 }
