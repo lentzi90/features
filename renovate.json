@@ -2,5 +2,19 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ]
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^src/clusterctl/devcontainer-feature.json$", "^test/clusterctl/test.sh$"],
+      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "depNameTemplate": "kubernetes-sigs/cluster-api",
+      "datasourceTemplate": "github-releases"
+    },
+    {
+      "fileMatch": ["^src/kubeadm/devcontainer-feature.json$", "^test/kubeadm/test.sh$"],
+      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "depNameTemplate": "kubernetes/kubernetes",
+      "datasourceTemplate": "github-releases"
+    }
+ ]
 }
