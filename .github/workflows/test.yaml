@@ -16,7 +16,6 @@ jobs:
           - clusterctl
           - kubeadm
         baseImage:
-          - debian:latest
           - ubuntu:latest
           - fedora:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
