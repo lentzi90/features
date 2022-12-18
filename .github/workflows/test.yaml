@@ -39,12 +39,3 @@ jobs:
 
       - name: "Testing global scenarios"
         run: devcontainer features test --global-scenarios-only .
-
-  renovate-config-validation:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Validate renovate config
-        uses: rinchsan/renovate-config-validator@v0.0.12
-        with:
-          pattern: 'renovate.json'
