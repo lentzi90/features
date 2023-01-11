@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "ignorePaths": ["**/node_modules/**", "**/bower_components/**"],
   "regexManagers": [
     {
       "fileMatch": ["^src/clusterctl/devcontainer-feature.json$", "^test/clusterctl/test.sh$"],
