@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "clusterctl": {
-                "version": "v1.2.8"
+                "version": "v1.2.9"
             },
             "kubeadm": {
                 "version": "v1.25.3"
