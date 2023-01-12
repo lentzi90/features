@@ -18,7 +18,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "clusterctl version" clusterctl version | grep "v1.2.8"
+check "clusterctl version" clusterctl version | grep "v1.2.9"
 check "kubeadm version" kubeadm version -o short | grep "v1.25.3"
 
 # Report result
