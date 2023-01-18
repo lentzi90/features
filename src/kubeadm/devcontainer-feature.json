@@ -10,7 +10,7 @@
                 "v1.25.3",
                 "v1.26.0"
             ],
-            "default": "v1.26.0",
+            "default": "v1.26.1",
             "description": "Select or enter kubeadm version to install."
         }
     },
