@@ -1,5 +1,5 @@
 {
-    "clusterctl_kubeadm_version": {
+    "all_version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "clusterctl": {
@@ -7,6 +7,9 @@
             },
             "kubeadm": {
                 "version": "v1.25.3"
+            },
+            "tilt": {
+                "version": "v0.31.1"
             }
         }
     }

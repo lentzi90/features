@@ -1,14 +1,14 @@
 {
     "name": "Clusterctl",
     "id": "clusterctl",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "The CLI for Cluster API.",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
                 "v1.2.9",
-                "v1.3.2"
+                "v1.3.3"
             ],
             "default": "v1.3.3",
             "description": "Select or enter clusterctl version to install."
