@@ -1,5 +1,5 @@
 
-# Clusterctl (clusterctl)
+# Tilt (tilt)
 
 Toolkit for microservice development.
 
@@ -21,4 +21,4 @@ Toolkit for microservice development.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lentzi90/features/blob/main/src/clusterctl/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lentzi90/features/blob/main/src/tilt/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
