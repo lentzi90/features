@@ -16,6 +16,12 @@
       "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
       "depNameTemplate": "kubernetes/kubernetes",
       "datasourceTemplate": "github-releases"
+    },
+    {
+      "fileMatch": ["^src/tilt/devcontainer-feature.json$", "^test/tilt/test.sh$"],
+      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "depNameTemplate": "tilt-dev/tilt",
+      "datasourceTemplate": "github-releases"
     }
  ]
 }
