@@ -3,13 +3,13 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "clusterctl": {
-                "version": "v1.2.9"
+                "version": "v1.2.11"
             },
             "kubeadm": {
-                "version": "v1.25.3"
+                "version": "v1.25.8"
             },
             "tilt": {
-                "version": "v0.31.1"
+                "version": "v0.31.2"
             }
         }
     }

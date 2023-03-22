@@ -7,8 +7,8 @@
         "version": {
             "type": "string",
             "proposals": [
-                "v1.2.9",
-                "v1.3.3"
+                "v1.2.11",
+                "v1.3.5"
             ],
             "default": "v1.3.5",
             "description": "Select or enter clusterctl version to install."
