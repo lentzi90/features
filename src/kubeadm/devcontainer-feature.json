@@ -1,7 +1,7 @@
 {
     "name": "Kubeadm",
     "id": "kubeadm",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Kubeadm, nothing more, nothing less, just the binary.",
     "options": {
         "version": {
