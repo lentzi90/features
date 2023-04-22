@@ -1,7 +1,7 @@
 {
     "name": "Tilt",
     "id": "tilt",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Toolkit for microservice development.",
     "options": {
         "version": {
