@@ -15,7 +15,7 @@ Toolkit for microservice development.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter tilt version to install. | string | v0.32.2 |
+| version | Select or enter tilt version to install. | string | v0.33.4 |
 
 
 
