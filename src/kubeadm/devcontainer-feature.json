@@ -1,14 +1,14 @@
 {
     "name": "Kubeadm",
     "id": "kubeadm",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "Kubeadm, nothing more, nothing less, just the binary.",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
-                "v1.25.8",
-                "v1.26.3"
+                "v1.27.4",
+                "v1.26.7"
             ],
             "default": "v1.28.0",
             "description": "Select or enter kubeadm version to install."
