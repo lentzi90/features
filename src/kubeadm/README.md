@@ -15,7 +15,7 @@ Kubeadm, nothing more, nothing less, just the binary.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter kubeadm version to install. | string | v1.27.1 |
+| version | Select or enter kubeadm version to install. | string | v1.28.0 |
 
 You should not expect this to be able to `kubeadm init` a cluster without adding additional tools and configuration.
 
