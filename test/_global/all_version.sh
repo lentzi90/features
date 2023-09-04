@@ -21,6 +21,7 @@ source dev-container-features-test-lib
 check "clusterctl version" clusterctl version | grep "v1.4.5"
 check "kubeadm version" kubeadm version -o short | grep "v1.27.4"
 check "tilt version" tilt version | grep "v0.32.4"
+check "kwok version" kwok --version | grep "v0.4.0"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

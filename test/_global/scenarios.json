@@ -10,6 +10,9 @@
             },
             "tilt": {
                 "version": "v0.32.4"
+            },
+            "kwok": {
+                "version": "v0.4.0"
             }
         }
     }

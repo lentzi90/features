@@ -22,6 +22,12 @@
       "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
       "depNameTemplate": "tilt-dev/tilt",
       "datasourceTemplate": "github-releases"
+    },
+    {
+      "fileMatch": ["^src/kwok/devcontainer-feature.json$", "^test/kwok/test.sh$"],
+      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "depNameTemplate": "kubernetes-sigs/kwok",
+      "datasourceTemplate": "github-releases"
     }
  ]
 }
