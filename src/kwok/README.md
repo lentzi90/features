@@ -1,13 +1,13 @@
 
-# Clusterctl (clusterctl)
+# KWOK (kwok)
 
-The CLI for Cluster API.
+KWOK (Kubernetes WithOut Kubelet). This installs both kwok and kwokctl.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/lentzi90/features/clusterctl:0": {}
+    "ghcr.io/lentzi90/features/kwok:0": {}
 }
 ```
 
@@ -15,10 +15,10 @@ The CLI for Cluster API.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter clusterctl version to install. | string | v1.5.0 |
+| version | Select or enter kwok version to install. | string | v0.4.0 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lentzi90/features/blob/main/src/clusterctl/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lentzi90/features/blob/main/src/kwok/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

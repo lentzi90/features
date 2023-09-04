@@ -15,7 +15,7 @@ The CLI for Cluster API.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter clusterctl version to install. | string | v1.5.0 |
+| version | Select or enter clusterctl version to install. | string | v1.5.1 |
 
 
 
