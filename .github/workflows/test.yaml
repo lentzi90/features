@@ -15,6 +15,8 @@ jobs:
         features:
           - clusterctl
           - kubeadm
+          - tilt
+          - kwok
         baseImage:
           - ubuntu:latest
           - fedora:latest
