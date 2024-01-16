@@ -10,7 +10,7 @@
                 "v1.4.6",
                 "v1.3.10"
             ],
-            "default": "v1.6.0",
+            "default": "v1.6.1",
             "description": "Select or enter clusterctl version to install."
         }
     },
