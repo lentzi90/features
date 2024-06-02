@@ -8,7 +8,7 @@
         }
     },
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2.10.2": {}
+        "ghcr.io/devcontainers/features/docker-in-docker:2.11.0": {}
     },
     "remoteUser": "node",
     "postCreateCommand": "npm install -g @devcontainers/cli; echo 'source /usr/share/bash-completion/completions/git' | sudo tee --append /etc/bash.bashrc; source /usr/share/bash-completion/completions/git;"
