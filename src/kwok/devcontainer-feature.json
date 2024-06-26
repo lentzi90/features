@@ -1,13 +1,13 @@
 {
     "name": "KWOK",
     "id": "kwok",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "KWOK (Kubernetes WithOut Kubelet). This installs both kwok and kwokctl.",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
-                "v0.4.0"
+                "v0.5.2"
             ],
             "default": "v0.5.2",
             "description": "Select or enter kwok version to install."
