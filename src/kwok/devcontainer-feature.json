@@ -9,7 +9,7 @@
             "proposals": [
                 "v0.5.2"
             ],
-            "default": "v0.5.2",
+            "default": "v0.6.0",
             "description": "Select or enter kwok version to install."
         }
     },
