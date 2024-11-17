@@ -15,7 +15,7 @@ KWOK (Kubernetes WithOut Kubelet). This installs both kwok and kwokctl.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter kwok version to install. | string | v0.5.2 |
+| version | Select or enter kwok version to install. | string | v0.6.1 |
 
 
 
