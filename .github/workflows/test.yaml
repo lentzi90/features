@@ -2,7 +2,7 @@ name: "CI - Test Features"
 on:
   push:
     branches:
-      - main
+    - main
   pull_request:
   workflow_dispatch:
 
@@ -13,31 +13,32 @@ jobs:
     strategy:
       matrix:
         features:
-          - clusterctl
-          - kubeadm
-          - tilt
-          - kwok
+        - clusterctl
+        - kubeadm
+        - tilt
+        - kwok
+        - yamlfmt
         baseImage:
-          - ubuntu:latest
-          - fedora:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+        - ubuntu:latest
+        - fedora:latest
+        - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
-      - name: "Install latest devcontainer CLI"
-        run: npm install -g @devcontainers/cli
+    - name: "Install latest devcontainer CLI"
+      run: npm install -g @devcontainers/cli
 
-      - name: "Generating tests for '${{ matrix.features }}' against '${{ matrix.baseImage }}'"
-        run: devcontainer features test -f ${{ matrix.features }} -i ${{ matrix.baseImage }} .
+    - name: "Generating tests for '${{ matrix.features }}' against '${{ matrix.baseImage }}'"
+      run: devcontainer features test -f ${{ matrix.features }} -i ${{ matrix.baseImage }} .
 
   test-global:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
-      - name: "Install latest devcontainer CLI"
-        run: npm install -g @devcontainers/cli
+    - name: "Install latest devcontainer CLI"
+      run: npm install -g @devcontainers/cli
 
-      - name: "Testing global scenarios"
-        run: devcontainer features test --global-scenarios-only .
+    - name: "Testing global scenarios"
+      run: devcontainer features test --global-scenarios-only .
