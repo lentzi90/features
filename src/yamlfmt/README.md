@@ -1,5 +1,5 @@
 
-# yamlfmt
+# yamlfmt (yamlfmt)
 
 A YAML formatter.
 
