@@ -22,6 +22,7 @@ check "clusterctl version" clusterctl version | grep "v1.7.3"
 check "kubeadm version" kubeadm version -o short | grep "v1.30.2"
 check "kwok version" kwok --version | grep "v0.5.2"
 check "tilt version" tilt version | grep "v0.32.4"
+check "yamlfmt version" yamlfmt -version | grep "0.14.0"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.
