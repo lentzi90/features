@@ -10,7 +10,7 @@
                 "v0.33.17",
                 "v0.32.4"
             ],
-            "default": "v0.34.0",
+            "default": "v0.34.1",
             "description": "Select or enter tilt version to install."
         }
     },
