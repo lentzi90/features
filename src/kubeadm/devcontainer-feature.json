@@ -1,20 +1,15 @@
 {
-    "name": "Kubeadm",
-    "id": "kubeadm",
-    "version": "0.1.4",
-    "description": "Kubeadm, nothing more, nothing less, just the binary.",
-    "options": {
-        "version": {
-            "type": "string",
-            "proposals": [
-                "v1.29.6",
-                "v1.30.2"
-            ],
-            "default": "v1.33.3",
-            "description": "Select or enter kubeadm version to install."
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
-    ]
+  "name": "Kubeadm",
+  "id": "kubeadm",
+  "version": "0.1.5",
+  "description": "Kubeadm, nothing more, nothing less, just the binary.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["v1.29.6", "v1.30.2"],
+      "default": "v1.33.3",
+      "description": "Select or enter kubeadm version to install."
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }

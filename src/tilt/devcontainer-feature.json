@@ -1,20 +1,15 @@
 {
-    "name": "Tilt",
-    "id": "tilt",
-    "version": "0.1.4",
-    "description": "Toolkit for microservice development.",
-    "options": {
-        "version": {
-            "type": "string",
-            "proposals": [
-                "v0.33.17",
-                "v0.32.4"
-            ],
-            "default": "v0.35.0",
-            "description": "Select or enter tilt version to install."
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
-    ]
+  "name": "Tilt",
+  "id": "tilt",
+  "version": "0.1.5",
+  "description": "Toolkit for microservice development.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["v0.33.17", "v0.32.4"],
+      "default": "v0.35.0",
+      "description": "Select or enter tilt version to install."
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }

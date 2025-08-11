@@ -18,11 +18,11 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "clusterctl version" clusterctl version | grep "v1.7.3"
-check "kubeadm version" kubeadm version -o short | grep "v1.30.2"
+check "clusterctl version" clusterctl version | grep "v1.10.4"
+check "kubeadm version" kubeadm version -o short | grep "v1.33.3"
 check "kwok version" kwok --version | grep "v0.5.2"
-check "tilt version" tilt version | grep "v0.32.4"
-check "yamlfmt version" yamlfmt -version | grep "0.14.0"
+check "tilt version" tilt version | grep "v0.35.0"
+check "yamlfmt version" yamlfmt -version | grep "0.17.2"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

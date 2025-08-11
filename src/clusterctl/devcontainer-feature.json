@@ -1,20 +1,15 @@
 {
-    "name": "Clusterctl",
-    "id": "clusterctl",
-    "version": "0.1.4",
-    "description": "The CLI for Cluster API.",
-    "options": {
-        "version": {
-            "type": "string",
-            "proposals": [
-                "v1.6.6",
-                "v1.7.3"
-            ],
-            "default": "v1.10.4",
-            "description": "Select or enter clusterctl version to install."
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
-    ]
+  "name": "Clusterctl",
+  "id": "clusterctl",
+  "version": "0.1.5",
+  "description": "The CLI for Cluster API.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["v1.6.6", "v1.7.3"],
+      "default": "v1.10.4",
+      "description": "Select or enter clusterctl version to install."
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }

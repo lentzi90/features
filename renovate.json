@@ -1,33 +1,67 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "ignorePaths": ["**/node_modules/**", "**/bower_components/**"],
   "regexManagers": [
     {
-      "fileMatch": ["^src/clusterctl/devcontainer-feature.json$", "^test/clusterctl/test.sh$"],
-      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "fileMatch": [
+        "^src/clusterctl/devcontainer-feature.json$",
+        "^test/clusterctl/test.sh$"
+      ],
+      "matchStrings": [
+        "\"default\":\\s*\"(?<currentValue>.*?)\"",
+        "grep\\s*'(?<currentValue>.*?)'\\n"
+      ],
       "depNameTemplate": "kubernetes-sigs/cluster-api",
       "datasourceTemplate": "github-releases"
     },
     {
-      "fileMatch": ["^src/kubeadm/devcontainer-feature.json$", "^test/kubeadm/test.sh$"],
-      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "fileMatch": [
+        "^src/kubeadm/devcontainer-feature.json$",
+        "^test/kubeadm/test.sh$"
+      ],
+      "matchStrings": [
+        "\"default\":\\s*\"(?<currentValue>.*?)\"",
+        "grep\\s*'(?<currentValue>.*?)'\\n"
+      ],
       "depNameTemplate": "kubernetes/kubernetes",
       "datasourceTemplate": "github-releases"
     },
     {
-      "fileMatch": ["^src/tilt/devcontainer-feature.json$", "^test/tilt/test.sh$"],
-      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "fileMatch": [
+        "^src/tilt/devcontainer-feature.json$",
+        "^test/tilt/test.sh$"
+      ],
+      "matchStrings": [
+        "\"default\":\\s*\"(?<currentValue>.*?)\"",
+        "grep\\s*'(?<currentValue>.*?)'\\n"
+      ],
       "depNameTemplate": "tilt-dev/tilt",
       "datasourceTemplate": "github-releases"
     },
     {
-      "fileMatch": ["^src/kwok/devcontainer-feature.json$", "^test/kwok/test.sh$"],
-      "matchStrings": ["\"default\":\\s*\"(?<currentValue>.*?)\"", "grep\\s*'(?<currentValue>.*?)'\\n"],
+      "fileMatch": [
+        "^src/kwok/devcontainer-feature.json$",
+        "^test/kwok/test.sh$"
+      ],
+      "matchStrings": [
+        "\"default\":\\s*\"(?<currentValue>.*?)\"",
+        "grep\\s*'(?<currentValue>.*?)'\\n"
+      ],
       "depNameTemplate": "kubernetes-sigs/kwok",
       "datasourceTemplate": "github-releases"
+    },
+    {
+      "fileMatch": [
+        "^src/yamlfmt/devcontainer-feature.json$",
+        "^test/yamlfmt/test.sh$"
+      ],
+      "matchStrings": [
+        "\"default\":\\s*\"(?<currentValue>.*?)\"",
+        "grep\\s*'(?<currentValue>.*?)'\\n"
+      ],
+      "depNameTemplate": "google/yamlfmt",
+      "datasourceTemplate": "github-releases"
     }
- ]
+  ]
 }
