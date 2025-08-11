@@ -1,15 +1,15 @@
 {
-    "name": "yamlfmt",
-    "id": "yamlfmt",
-    "version": "0.1.0",
-    "description": "A YAML formatter.",
-    "options": {
-        "version": {
-            "type": "string",
-            "proposals": ["v0.14.0"],
-            "default": "v0.14.0",
-            "description": "Select or enter yamlfmt version to install."
-        }
-    },
-    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+  "name": "yamlfmt",
+  "id": "yamlfmt",
+  "version": "0.1.1",
+  "description": "A YAML formatter.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["v0.14.0", "v0.16.0"],
+      "default": "v0.17.2",
+      "description": "Select or enter yamlfmt version to install."
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
