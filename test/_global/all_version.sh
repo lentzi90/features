@@ -18,10 +18,10 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "clusterctl version" clusterctl version | grep "v1.10.4"
-check "kubeadm version" kubeadm version -o short | grep "v1.33.3"
-check "kwok version" kwok --version | grep "v0.5.2"
-check "tilt version" tilt version | grep "v0.35.0"
+check "clusterctl version" clusterctl version | grep "v1.11.1"
+check "kubeadm version" kubeadm version -o short | grep "v1.34.1"
+check "kwok version" kwok --version | grep "v0.7.0"
+check "tilt version" tilt version | grep "v0.35.1"
 check "yamlfmt version" yamlfmt -version | grep "0.17.2"
 
 # Report result

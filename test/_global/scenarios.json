@@ -3,16 +3,16 @@
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
       "clusterctl": {
-        "version": "v1.10.4"
+        "version": "v1.11.1"
       },
       "kubeadm": {
-        "version": "v1.33.3"
+        "version": "v1.34.1"
       },
       "tilt": {
-        "version": "v0.35.0"
+        "version": "v0.35.1"
       },
       "kwok": {
-        "version": "v0.5.2"
+        "version": "v0.7.0"
       },
       "yamlfmt": {
         "version": "v0.17.2"
