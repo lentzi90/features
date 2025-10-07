@@ -7,7 +7,7 @@
     "version": {
       "type": "string",
       "proposals": ["v0.33.17", "v0.32.4"],
-      "default": "v0.35.1",
+      "default": "v0.35.2",
       "description": "Select or enter tilt version to install."
     }
   },
