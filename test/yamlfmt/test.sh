@@ -26,7 +26,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "version" yamlfmt -version | grep '0.17.2'
+check "version" yamlfmt -version | grep '0.18.0'
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.
