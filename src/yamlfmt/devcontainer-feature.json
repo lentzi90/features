@@ -7,7 +7,7 @@
     "version": {
       "type": "string",
       "proposals": ["v0.14.0", "v0.16.0"],
-      "default": "v0.18.0",
+      "default": "v0.18.1",
       "description": "Select or enter yamlfmt version to install."
     }
   },
