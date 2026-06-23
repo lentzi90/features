@@ -7,7 +7,7 @@
     "version": {
       "type": "string",
       "proposals": ["v0.5.2"],
-      "default": "v0.7.0",
+      "default": "v0.8.0",
       "description": "Select or enter kwok version to install."
     }
   },
